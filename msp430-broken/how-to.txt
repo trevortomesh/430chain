@@ -1,8 +1,0 @@
-TO COMPILE C TO ELF:
-msp430-c++ -Os -mmcu=msp430g2553 -o led.elf led.c
-
-TO LOAD PROGRAM:
-sudo ./bin/mspdebug rf2500
-erase
-prog led.elf
-run
